@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^api/posttbl/?$ api/handler.php
+RewriteRule ^api/posttbl/([0-9]+)?$ api/handler.php?postid=$1
